@@ -14,12 +14,12 @@ nav {
 	nav {
 		background-color: #edf2f1;
 		height: 100%;
-	    right: 0;
-	    overflow: hidden;
-	    position: fixed;
-	    top: 0;
-	    width: 20%;
-	    z-index: 1;
+	    	right: 0;
+	    	overflow: hidden;
+	    	position: fixed;
+	    	top: 0;
+	    	width: 20%;
+	    	z-index: 1;
 	}
 
 	nav ul {
@@ -31,8 +31,8 @@ nav {
 
 nav ul li {
 	list-style-type: none;
-    margin: 20px 0;
-    padding: 0 5px;
+	margin: 20px 0;
+    	padding: 0 5px;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -87,9 +87,9 @@ nav ul li a:hover {
 
 header {
 	background-color: #fcdf68;
-    position: relative;
-    width: 100%;
-    z-index: 1;
+    	position: relative;
+    	width: 100%;
+    	z-index: 1;
 }
 
 .title {
@@ -99,7 +99,7 @@ header {
 	color: #5e5e5e;
 	text-transform: uppercase;
 	padding: 70px 0 70px 180px;
-    margin-bottom: 0;
+    	margin-bottom: 0;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -112,14 +112,20 @@ header {
 
 .project-arrows {
 	position: absolute;
-    bottom: 5px;
-    right: 25%;
+    	bottom: 5px;
+    	right: 25%;
 }
 
 .arrows {
 	color: #e3a48d;
-    font-size: 40px;
-    padding: 0 15px;
+    	font-size: 40px;
+    	padding: 0 15px;
+}
+
+@media screen and (max-width: 40em) {
+	.arrows:hover {
+		color: #5e5e5e;
+	}
 }
 
 /* Projects */
@@ -161,6 +167,6 @@ header {
 
 .center-img {
 	display: block;
-    margin-left: auto;
-    margin-right: auto; 
+    	margin-left: auto;
+	margin-right: auto; 
 }

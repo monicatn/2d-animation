@@ -123,7 +123,7 @@ header {
 }
 
 @media screen and (max-width: 40em) {
-	.arrows:hover {
+	.project-arrows a:hover {
 		color: #5e5e5e;
 	}
 }

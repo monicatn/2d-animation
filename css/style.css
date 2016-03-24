@@ -159,10 +159,22 @@ header {
 
 .project-description {
 	font-family: 'Libre Baskerville', serif;
+	font-size: 22px;
 	color: #5e5e5e;
-	margin-top: 40px;
 	line-height: 35px;
 	padding: 0 25px 0 25px;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.project-description {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.project-description {
+		margin-top: 100px;
+	}
 }
 
 .center-img {
